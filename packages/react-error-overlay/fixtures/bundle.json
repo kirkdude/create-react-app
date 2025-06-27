@@ -1,518 +1,518 @@
 [
   {
-    "functionName": "App.componentDidMount",
-    "fileName": "http://localhost:3000/static/js/bundle.js",
-    "lineNumber": 26122,
-    "columnNumber": 21,
-    "_originalFunctionName": "App.componentDidMount",
+    "_originalColumnNumber": 0,
     "_originalFileName": "webpack:///packages/react-scripts/template/src/App.js",
+    "_originalFunctionName": "App.componentDidMount",
     "_originalLineNumber": 7,
-    "_originalColumnNumber": 0,
-    "_scriptCode": [
-      {
-        "lineNumber": 26122,
-        "content": "      document.body.missing();",
-        "highlight": true
-      }
-    ],
     "_originalScriptCode": [
       {
-        "lineNumber": 7,
         "content": "    document.body.missing()",
-        "highlight": true
+        "highlight": true,
+        "lineNumber": 7
       }
-    ]
+    ],
+    "_scriptCode": [
+      {
+        "content": "      document.body.missing();",
+        "highlight": true,
+        "lineNumber": 26122
+      }
+    ],
+    "columnNumber": 21,
+    "fileName": "http://localhost:3000/static/js/bundle.js",
+    "functionName": "App.componentDidMount",
+    "lineNumber": 26122
   },
   {
-    "functionName": null,
-    "fileName": "http://localhost:3000/static/js/bundle.js",
-    "lineNumber": 30091,
-    "columnNumber": 25,
-    "_originalFunctionName": null,
+    "_originalColumnNumber": 0,
     "_originalFileName": "webpack:///packages/react-scripts/~/react-dom/lib/ReactCompositeComponent.js",
+    "_originalFunctionName": null,
     "_originalLineNumber": 265,
-    "_originalColumnNumber": 0,
-    "_scriptCode": [
+    "_originalScriptCode": [
       {
-        "lineNumber": 30091,
         "content": "            return inst.componentDidMount();",
-        "highlight": true
+        "highlight": true,
+        "lineNumber": 265
       }
     ],
-    "_originalScriptCode": [
+    "_scriptCode": [
       {
-        "lineNumber": 265,
         "content": "            return inst.componentDidMount();",
-        "highlight": true
-      }
-    ]
-  },
-  {
-    "functionName": "measureLifeCyclePerf",
-    "fileName": "http://localhost:3000/static/js/bundle.js",
-    "lineNumber": 29901,
-    "columnNumber": 12,
-    "_originalFunctionName": "measureLifeCyclePerf",
-    "_originalFileName": "webpack:///packages/react-scripts/~/react-dom/lib/ReactCompositeComponent.js",
-    "_originalLineNumber": 75,
-    "_originalColumnNumber": 0,
-    "_scriptCode": [
-      {
-        "lineNumber": 29901,
-        "content": "    return fn();",
-        "highlight": true
+        "highlight": true,
+        "lineNumber": 30091
       }
     ],
-    "_originalScriptCode": [
-      {
-        "lineNumber": 75,
-        "content": "    return fn();",
-        "highlight": true
-      }
-    ]
-  },
-  {
-    "functionName": null,
-    "fileName": "http://localhost:3000/static/js/bundle.js",
-    "lineNumber": 30090,
-    "columnNumber": 11,
-    "_originalFunctionName": null,
-    "_originalFileName": "webpack:///packages/react-scripts/~/react-dom/lib/ReactCompositeComponent.js",
-    "_originalLineNumber": 264,
-    "_originalColumnNumber": 0,
-    "_scriptCode": [
-      {
-        "lineNumber": 30090,
-        "content": "          measureLifeCyclePerf(function () {",
-        "highlight": true
-      }
-    ],
-    "_originalScriptCode": [
-      {
-        "lineNumber": 264,
-        "content": "          measureLifeCyclePerf(function () {",
-        "highlight": true
-      }
-    ]
-  },
-  {
-    "functionName": "CallbackQueue.notifyAll",
-    "fileName": "http://localhost:3000/static/js/bundle.js",
-    "lineNumber": 13256,
-    "columnNumber": 22,
-    "_originalFunctionName": "CallbackQueue.notifyAll",
-    "_originalFileName": "webpack:///packages/react-scripts/~/react-dom/lib/CallbackQueue.js",
-    "_originalLineNumber": 76,
-    "_originalColumnNumber": 0,
-    "_scriptCode": [
-      {
-        "lineNumber": 13256,
-        "content": "        callbacks[i].call(contexts[i], arg);",
-        "highlight": true
-      }
-    ],
-    "_originalScriptCode": [
-      {
-        "lineNumber": 76,
-        "content": "        callbacks[i].call(contexts[i], arg);",
-        "highlight": true
-      }
-    ]
-  },
-  {
-    "functionName": "ReactReconcileTransaction.close",
-    "fileName": "http://localhost:3000/static/js/bundle.js",
-    "lineNumber": 35124,
-    "columnNumber": 26,
-    "_originalFunctionName": "ReactReconcileTransaction.close",
-    "_originalFileName": "webpack:///packages/react-scripts/~/react-dom/lib/ReactReconcileTransaction.js",
-    "_originalLineNumber": 80,
-    "_originalColumnNumber": 0,
-    "_scriptCode": [
-      {
-        "lineNumber": 35124,
-        "content": "    this.reactMountReady.notifyAll();",
-        "highlight": true
-      }
-    ],
-    "_originalScriptCode": [
-      {
-        "lineNumber": 80,
-        "content": "    this.reactMountReady.notifyAll();",
-        "highlight": true
-      }
-    ]
-  },
-  {
-    "functionName": "ReactReconcileTransaction.closeAll",
-    "fileName": "http://localhost:3000/static/js/bundle.js",
-    "lineNumber": 7390,
     "columnNumber": 25,
-    "_originalFunctionName": "ReactReconcileTransaction.closeAll",
-    "_originalFileName": "webpack:///packages/react-scripts/~/react-dom/lib/Transaction.js",
-    "_originalLineNumber": 206,
-    "_originalColumnNumber": 0,
-    "_scriptCode": [
-      {
-        "lineNumber": 7390,
-        "content": "          wrapper.close.call(this, initData);",
-        "highlight": true
-      }
-    ],
-    "_originalScriptCode": [
-      {
-        "lineNumber": 206,
-        "content": "          wrapper.close.call(this, initData);",
-        "highlight": true
-      }
-    ]
+    "fileName": "http://localhost:3000/static/js/bundle.js",
+    "functionName": null,
+    "lineNumber": 30091
   },
   {
-    "functionName": "ReactReconcileTransaction.perform",
-    "fileName": "http://localhost:3000/static/js/bundle.js",
-    "lineNumber": 7337,
-    "columnNumber": 16,
-    "_originalFunctionName": "ReactReconcileTransaction.perform",
-    "_originalFileName": "webpack:///packages/react-scripts/~/react-dom/lib/Transaction.js",
-    "_originalLineNumber": 153,
     "_originalColumnNumber": 0,
-    "_scriptCode": [
-      {
-        "lineNumber": 7337,
-        "content": "          this.closeAll(0);",
-        "highlight": true
-      }
-    ],
+    "_originalFileName": "webpack:///packages/react-scripts/~/react-dom/lib/ReactCompositeComponent.js",
+    "_originalFunctionName": "measureLifeCyclePerf",
+    "_originalLineNumber": 75,
     "_originalScriptCode": [
       {
-        "lineNumber": 153,
-        "content": "          this.closeAll(0);",
-        "highlight": true
-      }
-    ]
-  },
-  {
-    "functionName": "batchedMountComponentIntoNode",
-    "fileName": "http://localhost:3000/static/js/bundle.js",
-    "lineNumber": 14204,
-    "columnNumber": 15,
-    "_originalFunctionName": "batchedMountComponentIntoNode",
-    "_originalFileName": "webpack:///packages/react-scripts/~/react-dom/lib/ReactMount.js",
-    "_originalLineNumber": 126,
-    "_originalColumnNumber": 0,
-    "_scriptCode": [
-      {
-        "lineNumber": 14204,
-        "content": "  transaction.perform(mountComponentIntoNode, null, componentInstance, container, transaction, shouldReuseMarkup, context);",
-        "highlight": true
+        "content": "    return fn();",
+        "highlight": true,
+        "lineNumber": 75
       }
     ],
-    "_originalScriptCode": [
-      {
-        "lineNumber": 126,
-        "content": "  transaction.perform(mountComponentIntoNode, null, componentInstance, container, transaction, shouldReuseMarkup, context);",
-        "highlight": true
-      }
-    ]
-  },
-  {
-    "functionName": "ReactDefaultBatchingStrategyTransaction.perform",
-    "fileName": "http://localhost:3000/static/js/bundle.js",
-    "lineNumber": 7324,
-    "columnNumber": 20,
-    "_originalFunctionName": "ReactDefaultBatchingStrategyTransaction.perform",
-    "_originalFileName": "webpack:///packages/react-scripts/~/react-dom/lib/Transaction.js",
-    "_originalLineNumber": 140,
-    "_originalColumnNumber": 0,
     "_scriptCode": [
       {
-        "lineNumber": 7324,
-        "content": "      ret = method.call(scope, a, b, c, d, e, f);",
-        "highlight": true
+        "content": "    return fn();",
+        "highlight": true,
+        "lineNumber": 29901
       }
     ],
-    "_originalScriptCode": [
-      {
-        "lineNumber": 140,
-        "content": "      ret = method.call(scope, a, b, c, d, e, f);",
-        "highlight": true
-      }
-    ]
+    "columnNumber": 12,
+    "fileName": "http://localhost:3000/static/js/bundle.js",
+    "functionName": "measureLifeCyclePerf",
+    "lineNumber": 29901
   },
   {
-    "functionName": "batchedUpdates",
+    "_originalColumnNumber": 0,
+    "_originalFileName": "webpack:///packages/react-scripts/~/react-dom/lib/ReactCompositeComponent.js",
+    "_originalFunctionName": null,
+    "_originalLineNumber": 264,
+    "_originalScriptCode": [
+      {
+        "content": "          measureLifeCyclePerf(function () {",
+        "highlight": true,
+        "lineNumber": 264
+      }
+    ],
+    "_scriptCode": [
+      {
+        "content": "          measureLifeCyclePerf(function () {",
+        "highlight": true,
+        "lineNumber": 30090
+      }
+    ],
+    "columnNumber": 11,
     "fileName": "http://localhost:3000/static/js/bundle.js",
-    "lineNumber": 33900,
+    "functionName": null,
+    "lineNumber": 30090
+  },
+  {
+    "_originalColumnNumber": 0,
+    "_originalFileName": "webpack:///packages/react-scripts/~/react-dom/lib/CallbackQueue.js",
+    "_originalFunctionName": "CallbackQueue.notifyAll",
+    "_originalLineNumber": 76,
+    "_originalScriptCode": [
+      {
+        "content": "        callbacks[i].call(contexts[i], arg);",
+        "highlight": true,
+        "lineNumber": 76
+      }
+    ],
+    "_scriptCode": [
+      {
+        "content": "        callbacks[i].call(contexts[i], arg);",
+        "highlight": true,
+        "lineNumber": 13256
+      }
+    ],
+    "columnNumber": 22,
+    "fileName": "http://localhost:3000/static/js/bundle.js",
+    "functionName": "CallbackQueue.notifyAll",
+    "lineNumber": 13256
+  },
+  {
+    "_originalColumnNumber": 0,
+    "_originalFileName": "webpack:///packages/react-scripts/~/react-dom/lib/ReactReconcileTransaction.js",
+    "_originalFunctionName": "ReactReconcileTransaction.close",
+    "_originalLineNumber": 80,
+    "_originalScriptCode": [
+      {
+        "content": "    this.reactMountReady.notifyAll();",
+        "highlight": true,
+        "lineNumber": 80
+      }
+    ],
+    "_scriptCode": [
+      {
+        "content": "    this.reactMountReady.notifyAll();",
+        "highlight": true,
+        "lineNumber": 35124
+      }
+    ],
     "columnNumber": 26,
-    "_originalFunctionName": "batchedUpdates",
+    "fileName": "http://localhost:3000/static/js/bundle.js",
+    "functionName": "ReactReconcileTransaction.close",
+    "lineNumber": 35124
+  },
+  {
+    "_originalColumnNumber": 0,
+    "_originalFileName": "webpack:///packages/react-scripts/~/react-dom/lib/Transaction.js",
+    "_originalFunctionName": "ReactReconcileTransaction.closeAll",
+    "_originalLineNumber": 206,
+    "_originalScriptCode": [
+      {
+        "content": "          wrapper.close.call(this, initData);",
+        "highlight": true,
+        "lineNumber": 206
+      }
+    ],
+    "_scriptCode": [
+      {
+        "content": "          wrapper.close.call(this, initData);",
+        "highlight": true,
+        "lineNumber": 7390
+      }
+    ],
+    "columnNumber": 25,
+    "fileName": "http://localhost:3000/static/js/bundle.js",
+    "functionName": "ReactReconcileTransaction.closeAll",
+    "lineNumber": 7390
+  },
+  {
+    "_originalColumnNumber": 0,
+    "_originalFileName": "webpack:///packages/react-scripts/~/react-dom/lib/Transaction.js",
+    "_originalFunctionName": "ReactReconcileTransaction.perform",
+    "_originalLineNumber": 153,
+    "_originalScriptCode": [
+      {
+        "content": "          this.closeAll(0);",
+        "highlight": true,
+        "lineNumber": 153
+      }
+    ],
+    "_scriptCode": [
+      {
+        "content": "          this.closeAll(0);",
+        "highlight": true,
+        "lineNumber": 7337
+      }
+    ],
+    "columnNumber": 16,
+    "fileName": "http://localhost:3000/static/js/bundle.js",
+    "functionName": "ReactReconcileTransaction.perform",
+    "lineNumber": 7337
+  },
+  {
+    "_originalColumnNumber": 0,
+    "_originalFileName": "webpack:///packages/react-scripts/~/react-dom/lib/ReactMount.js",
+    "_originalFunctionName": "batchedMountComponentIntoNode",
+    "_originalLineNumber": 126,
+    "_originalScriptCode": [
+      {
+        "content": "  transaction.perform(mountComponentIntoNode, null, componentInstance, container, transaction, shouldReuseMarkup, context);",
+        "highlight": true,
+        "lineNumber": 126
+      }
+    ],
+    "_scriptCode": [
+      {
+        "content": "  transaction.perform(mountComponentIntoNode, null, componentInstance, container, transaction, shouldReuseMarkup, context);",
+        "highlight": true,
+        "lineNumber": 14204
+      }
+    ],
+    "columnNumber": 15,
+    "fileName": "http://localhost:3000/static/js/bundle.js",
+    "functionName": "batchedMountComponentIntoNode",
+    "lineNumber": 14204
+  },
+  {
+    "_originalColumnNumber": 0,
+    "_originalFileName": "webpack:///packages/react-scripts/~/react-dom/lib/Transaction.js",
+    "_originalFunctionName": "ReactDefaultBatchingStrategyTransaction.perform",
+    "_originalLineNumber": 140,
+    "_originalScriptCode": [
+      {
+        "content": "      ret = method.call(scope, a, b, c, d, e, f);",
+        "highlight": true,
+        "lineNumber": 140
+      }
+    ],
+    "_scriptCode": [
+      {
+        "content": "      ret = method.call(scope, a, b, c, d, e, f);",
+        "highlight": true,
+        "lineNumber": 7324
+      }
+    ],
+    "columnNumber": 20,
+    "fileName": "http://localhost:3000/static/js/bundle.js",
+    "functionName": "ReactDefaultBatchingStrategyTransaction.perform",
+    "lineNumber": 7324
+  },
+  {
+    "_originalColumnNumber": 0,
     "_originalFileName": "webpack:///packages/react-scripts/~/react-dom/lib/ReactDefaultBatchingStrategy.js",
-    "_originalLineNumber": 62,
-    "_originalColumnNumber": 0,
-    "_scriptCode": [
-      {
-        "lineNumber": 33900,
-        "content": "      return transaction.perform(callback, null, a, b, c, d, e);",
-        "highlight": true
-      }
-    ],
-    "_originalScriptCode": [
-      {
-        "lineNumber": 62,
-        "content": "      return transaction.perform(callback, null, a, b, c, d, e);",
-        "highlight": true
-      }
-    ]
-  },
-  {
-    "functionName": "batchedUpdates",
-    "fileName": "http://localhost:3000/static/js/bundle.js",
-    "lineNumber": 2181,
-    "columnNumber": 27,
     "_originalFunctionName": "batchedUpdates",
+    "_originalLineNumber": 62,
+    "_originalScriptCode": [
+      {
+        "content": "      return transaction.perform(callback, null, a, b, c, d, e);",
+        "highlight": true,
+        "lineNumber": 62
+      }
+    ],
+    "_scriptCode": [
+      {
+        "content": "      return transaction.perform(callback, null, a, b, c, d, e);",
+        "highlight": true,
+        "lineNumber": 33900
+      }
+    ],
+    "columnNumber": 26,
+    "fileName": "http://localhost:3000/static/js/bundle.js",
+    "functionName": "batchedUpdates",
+    "lineNumber": 33900
+  },
+  {
+    "_originalColumnNumber": 0,
     "_originalFileName": "webpack:///packages/react-scripts/~/react-dom/lib/ReactUpdates.js",
+    "_originalFunctionName": "batchedUpdates",
     "_originalLineNumber": 97,
-    "_originalColumnNumber": 0,
-    "_scriptCode": [
-      {
-        "lineNumber": 2181,
-        "content": "  return batchingStrategy.batchedUpdates(callback, a, b, c, d, e);",
-        "highlight": true
-      }
-    ],
     "_originalScriptCode": [
       {
-        "lineNumber": 97,
         "content": "  return batchingStrategy.batchedUpdates(callback, a, b, c, d, e);",
-        "highlight": true
+        "highlight": true,
+        "lineNumber": 97
       }
-    ]
+    ],
+    "_scriptCode": [
+      {
+        "content": "  return batchingStrategy.batchedUpdates(callback, a, b, c, d, e);",
+        "highlight": true,
+        "lineNumber": 2181
+      }
+    ],
+    "columnNumber": 27,
+    "fileName": "http://localhost:3000/static/js/bundle.js",
+    "functionName": "batchedUpdates",
+    "lineNumber": 2181
   },
   {
-    "functionName": "_renderNewRootComponent",
-    "fileName": "http://localhost:3000/static/js/bundle.js",
-    "lineNumber": 14398,
-    "columnNumber": 18,
+    "_originalColumnNumber": 0,
+    "_originalFileName": "webpack:///packages/react-scripts/~/react-dom/lib/ReactMount.js",
     "_originalFunctionName": "_renderNewRootComponent",
-    "_originalFileName": "webpack:///packages/react-scripts/~/react-dom/lib/ReactMount.js",
     "_originalLineNumber": 320,
-    "_originalColumnNumber": 0,
-    "_scriptCode": [
+    "_originalScriptCode": [
       {
-        "lineNumber": 14398,
         "content": "    ReactUpdates.batchedUpdates(batchedMountComponentIntoNode, componentInstance, container, shouldReuseMarkup, context);",
-        "highlight": true
+        "highlight": true,
+        "lineNumber": 320
       }
     ],
-    "_originalScriptCode": [
+    "_scriptCode": [
       {
-        "lineNumber": 320,
         "content": "    ReactUpdates.batchedUpdates(batchedMountComponentIntoNode, componentInstance, container, shouldReuseMarkup, context);",
-        "highlight": true
-      }
-    ]
-  },
-  {
-    "functionName": "_renderSubtreeIntoContainer",
-    "fileName": "http://localhost:3000/static/js/bundle.js",
-    "lineNumber": 14479,
-    "columnNumber": 32,
-    "_originalFunctionName": "_renderSubtreeIntoContainer",
-    "_originalFileName": "webpack:///packages/react-scripts/~/react-dom/lib/ReactMount.js",
-    "_originalLineNumber": 401,
-    "_originalColumnNumber": 0,
-    "_scriptCode": [
-      {
-        "lineNumber": 14479,
-        "content": "    var component = ReactMount._renderNewRootComponent(nextWrappedElement, container, shouldReuseMarkup, nextContext)._renderedComponent.getPublicInstance();",
-        "highlight": true
+        "highlight": true,
+        "lineNumber": 14398
       }
     ],
-    "_originalScriptCode": [
-      {
-        "lineNumber": 401,
-        "content": "    var component = ReactMount._renderNewRootComponent(nextWrappedElement, container, shouldReuseMarkup, nextContext)._renderedComponent.getPublicInstance();",
-        "highlight": true
-      }
-    ]
-  },
-  {
-    "functionName": "render",
-    "fileName": "http://localhost:3000/static/js/bundle.js",
-    "lineNumber": 14500,
-    "columnNumber": 23,
-    "_originalFunctionName": "render",
-    "_originalFileName": "webpack:///packages/react-scripts/~/react-dom/lib/ReactMount.js",
-    "_originalLineNumber": 422,
-    "_originalColumnNumber": 0,
-    "_scriptCode": [
-      {
-        "lineNumber": 14500,
-        "content": "    return ReactMount._renderSubtreeIntoContainer(null, nextElement, container, callback);",
-        "highlight": true
-      }
-    ],
-    "_originalScriptCode": [
-      {
-        "lineNumber": 422,
-        "content": "    return ReactMount._renderSubtreeIntoContainer(null, nextElement, container, callback);",
-        "highlight": true
-      }
-    ]
-  },
-  {
-    "functionName": null,
-    "fileName": "http://localhost:3000/static/js/bundle.js",
-    "lineNumber": 17287,
-    "columnNumber": 20,
-    "_originalFunctionName": null,
-    "_originalFileName": "webpack:///packages/react-scripts/template/src/index.js",
-    "_originalLineNumber": 6,
-    "_originalColumnNumber": 0,
-    "_scriptCode": [
-      {
-        "lineNumber": 17287,
-        "content": "_reactDom2.default.render(_react2.default.createElement(_App2.default, {",
-        "highlight": true
-      }
-    ],
-    "_originalScriptCode": [
-      {
-        "lineNumber": 6,
-        "content": "ReactDOM.render(<App />, document.getElementById('root'));",
-        "highlight": true
-      }
-    ]
-  },
-  {
-    "functionName": "__webpack_require__",
-    "fileName": "http://localhost:3000/static/js/bundle.js",
-    "lineNumber": 660,
-    "columnNumber": 30,
-    "_originalFunctionName": "__webpack_require__",
-    "_originalFileName": "webpack:/webpack/bootstrap 623dfc2b357036468bb6",
-    "_originalLineNumber": 659,
-    "_originalColumnNumber": 0,
-    "_scriptCode": [
-      {
-        "lineNumber": 660,
-        "content": "/******/ \t\tmodules[moduleId].call(module.exports, module, module.exports, hotCreateRequire(moduleId));",
-        "highlight": true
-      }
-    ],
-    "_originalScriptCode": [
-      {
-        "lineNumber": 659,
-        "content": " \t\tmodules[moduleId].call(module.exports, module, module.exports, hotCreateRequire(moduleId));",
-        "highlight": true
-      }
-    ]
-  },
-  {
-    "functionName": "fn",
-    "fileName": "http://localhost:3000/static/js/bundle.js",
-    "lineNumber": 84,
-    "columnNumber": 20,
-    "_originalFunctionName": "fn",
-    "_originalFileName": "webpack:/webpack/bootstrap 623dfc2b357036468bb6",
-    "_originalLineNumber": 83,
-    "_originalColumnNumber": 0,
-    "_scriptCode": [
-      {
-        "lineNumber": 84,
-        "content": "/******/ \t\t\treturn __webpack_require__(request);\r",
-        "highlight": true
-      }
-    ],
-    "_originalScriptCode": [
-      {
-        "lineNumber": 83,
-        "content": " \t\t\treturn __webpack_require__(request);\r",
-        "highlight": true
-      }
-    ]
-  },
-  {
-    "functionName": null,
-    "fileName": "http://localhost:3000/static/js/bundle.js",
-    "lineNumber": 41219,
     "columnNumber": 18,
+    "fileName": "http://localhost:3000/static/js/bundle.js",
+    "functionName": "_renderNewRootComponent",
+    "lineNumber": 14398
+  },
+  {
+    "_originalColumnNumber": 0,
+    "_originalFileName": "webpack:///packages/react-scripts/~/react-dom/lib/ReactMount.js",
+    "_originalFunctionName": "_renderSubtreeIntoContainer",
+    "_originalLineNumber": 401,
+    "_originalScriptCode": [
+      {
+        "content": "    var component = ReactMount._renderNewRootComponent(nextWrappedElement, container, shouldReuseMarkup, nextContext)._renderedComponent.getPublicInstance();",
+        "highlight": true,
+        "lineNumber": 401
+      }
+    ],
+    "_scriptCode": [
+      {
+        "content": "    var component = ReactMount._renderNewRootComponent(nextWrappedElement, container, shouldReuseMarkup, nextContext)._renderedComponent.getPublicInstance();",
+        "highlight": true,
+        "lineNumber": 14479
+      }
+    ],
+    "columnNumber": 32,
+    "fileName": "http://localhost:3000/static/js/bundle.js",
+    "functionName": "_renderSubtreeIntoContainer",
+    "lineNumber": 14479
+  },
+  {
+    "_originalColumnNumber": 0,
+    "_originalFileName": "webpack:///packages/react-scripts/~/react-dom/lib/ReactMount.js",
+    "_originalFunctionName": "render",
+    "_originalLineNumber": 422,
+    "_originalScriptCode": [
+      {
+        "content": "    return ReactMount._renderSubtreeIntoContainer(null, nextElement, container, callback);",
+        "highlight": true,
+        "lineNumber": 422
+      }
+    ],
+    "_scriptCode": [
+      {
+        "content": "    return ReactMount._renderSubtreeIntoContainer(null, nextElement, container, callback);",
+        "highlight": true,
+        "lineNumber": 14500
+      }
+    ],
+    "columnNumber": 23,
+    "fileName": "http://localhost:3000/static/js/bundle.js",
+    "functionName": "render",
+    "lineNumber": 14500
+  },
+  {
+    "_originalColumnNumber": 0,
+    "_originalFileName": "webpack:///packages/react-scripts/template/src/index.js",
     "_originalFunctionName": null,
-    "_originalFileName": null,
-    "_originalLineNumber": null,
-    "_originalColumnNumber": null,
-    "_scriptCode": [
-      {
-        "lineNumber": 41219,
-        "content": "module.exports = __webpack_require__(/*! /Users/joe/Documents/Development/OSS/create-react-app/packages/react-scripts/template/src/index.js */130);",
-        "highlight": true
-      }
-    ],
-    "_originalScriptCode": []
-  },
-  {
-    "functionName": "__webpack_require__",
-    "fileName": "http://localhost:3000/static/js/bundle.js",
-    "lineNumber": 660,
-    "columnNumber": 30,
-    "_originalFunctionName": "__webpack_require__",
-    "_originalFileName": "webpack:/webpack/bootstrap 623dfc2b357036468bb6",
-    "_originalLineNumber": 659,
-    "_originalColumnNumber": 0,
-    "_scriptCode": [
-      {
-        "lineNumber": 660,
-        "content": "/******/ \t\tmodules[moduleId].call(module.exports, module, module.exports, hotCreateRequire(moduleId));",
-        "highlight": true
-      }
-    ],
+    "_originalLineNumber": 6,
     "_originalScriptCode": [
       {
-        "lineNumber": 659,
-        "content": " \t\tmodules[moduleId].call(module.exports, module, module.exports, hotCreateRequire(moduleId));",
-        "highlight": true
-      }
-    ]
-  },
-  {
-    "functionName": "validateFormat",
-    "fileName": "http://localhost:3000/static/js/bundle.js",
-    "lineNumber": 709,
-    "columnNumber": 39,
-    "_originalFunctionName": "validateFormat",
-    "_originalFileName": "webpack:/webpack/bootstrap 623dfc2b357036468bb6",
-    "_originalLineNumber": 708,
-    "_originalColumnNumber": 0,
-    "_scriptCode": [
-      {
-        "lineNumber": 709,
-        "content": "/******/ \treturn hotCreateRequire(302)(__webpack_require__.s = 302);",
-        "highlight": true
+        "content": "ReactDOM.render(<App />, document.getElementById('root'));",
+        "highlight": true,
+        "lineNumber": 6
       }
     ],
-    "_originalScriptCode": [
+    "_scriptCode": [
       {
-        "lineNumber": 708,
-        "content": " \treturn hotCreateRequire(302)(__webpack_require__.s = 302);",
-        "highlight": true
+        "content": "_reactDom2.default.render(_react2.default.createElement(_App2.default, {",
+        "highlight": true,
+        "lineNumber": 17287
       }
-    ]
-  },
-  {
+    ],
+    "columnNumber": 20,
+    "fileName": "http://localhost:3000/static/js/bundle.js",
     "functionName": null,
-    "fileName": "http://localhost:3000/static/js/bundle.js",
-    "lineNumber": 712,
-    "columnNumber": 10,
-    "_originalFunctionName": null,
-    "_originalFileName": null,
-    "_originalLineNumber": null,
-    "_originalColumnNumber": null,
-    "_scriptCode": [
+    "lineNumber": 17287
+  },
+  {
+    "_originalColumnNumber": 0,
+    "_originalFileName": "webpack:/webpack/bootstrap 623dfc2b357036468bb6",
+    "_originalFunctionName": "__webpack_require__",
+    "_originalLineNumber": 659,
+    "_originalScriptCode": [
       {
-        "lineNumber": 712,
-        "content": "/******/ ([",
-        "highlight": true
+        "content": " \t\tmodules[moduleId].call(module.exports, module, module.exports, hotCreateRequire(moduleId));",
+        "highlight": true,
+        "lineNumber": 659
       }
     ],
-    "_originalScriptCode": []
+    "_scriptCode": [
+      {
+        "content": "/******/ \t\tmodules[moduleId].call(module.exports, module, module.exports, hotCreateRequire(moduleId));",
+        "highlight": true,
+        "lineNumber": 660
+      }
+    ],
+    "columnNumber": 30,
+    "fileName": "http://localhost:3000/static/js/bundle.js",
+    "functionName": "__webpack_require__",
+    "lineNumber": 660
+  },
+  {
+    "_originalColumnNumber": 0,
+    "_originalFileName": "webpack:/webpack/bootstrap 623dfc2b357036468bb6",
+    "_originalFunctionName": "fn",
+    "_originalLineNumber": 83,
+    "_originalScriptCode": [
+      {
+        "content": " \t\t\treturn __webpack_require__(request);\r",
+        "highlight": true,
+        "lineNumber": 83
+      }
+    ],
+    "_scriptCode": [
+      {
+        "content": "/******/ \t\t\treturn __webpack_require__(request);",
+        "highlight": true,
+        "lineNumber": 84
+      }
+    ],
+    "columnNumber": 20,
+    "fileName": "http://localhost:3000/static/js/bundle.js",
+    "functionName": "fn",
+    "lineNumber": 84
+  },
+  {
+    "_originalColumnNumber": null,
+    "_originalFileName": null,
+    "_originalFunctionName": null,
+    "_originalLineNumber": null,
+    "_originalScriptCode": [],
+    "_scriptCode": [
+      {
+        "content": "module.exports = __webpack_require__(/*! /Users/joe/Documents/Development/OSS/create-react-app/packages/react-scripts/template/src/index.js */130);",
+        "highlight": true,
+        "lineNumber": 41219
+      }
+    ],
+    "columnNumber": 18,
+    "fileName": "http://localhost:3000/static/js/bundle.js",
+    "functionName": null,
+    "lineNumber": 41219
+  },
+  {
+    "_originalColumnNumber": 0,
+    "_originalFileName": "webpack:/webpack/bootstrap 623dfc2b357036468bb6",
+    "_originalFunctionName": "__webpack_require__",
+    "_originalLineNumber": 659,
+    "_originalScriptCode": [
+      {
+        "content": " \t\tmodules[moduleId].call(module.exports, module, module.exports, hotCreateRequire(moduleId));",
+        "highlight": true,
+        "lineNumber": 659
+      }
+    ],
+    "_scriptCode": [
+      {
+        "content": "/******/ \t\tmodules[moduleId].call(module.exports, module, module.exports, hotCreateRequire(moduleId));",
+        "highlight": true,
+        "lineNumber": 660
+      }
+    ],
+    "columnNumber": 30,
+    "fileName": "http://localhost:3000/static/js/bundle.js",
+    "functionName": "__webpack_require__",
+    "lineNumber": 660
+  },
+  {
+    "_originalColumnNumber": 0,
+    "_originalFileName": "webpack:/webpack/bootstrap 623dfc2b357036468bb6",
+    "_originalFunctionName": "validateFormat",
+    "_originalLineNumber": 708,
+    "_originalScriptCode": [
+      {
+        "content": " \treturn hotCreateRequire(302)(__webpack_require__.s = 302);",
+        "highlight": true,
+        "lineNumber": 708
+      }
+    ],
+    "_scriptCode": [
+      {
+        "content": "/******/ \treturn hotCreateRequire(302)(__webpack_require__.s = 302);",
+        "highlight": true,
+        "lineNumber": 709
+      }
+    ],
+    "columnNumber": 39,
+    "fileName": "http://localhost:3000/static/js/bundle.js",
+    "functionName": "validateFormat",
+    "lineNumber": 709
+  },
+  {
+    "_originalColumnNumber": null,
+    "_originalFileName": null,
+    "_originalFunctionName": null,
+    "_originalLineNumber": null,
+    "_originalScriptCode": [],
+    "_scriptCode": [
+      {
+        "content": "/******/ ([",
+        "highlight": true,
+        "lineNumber": 712
+      }
+    ],
+    "columnNumber": 10,
+    "fileName": "http://localhost:3000/static/js/bundle.js",
+    "functionName": null,
+    "lineNumber": 712
   }
 ]

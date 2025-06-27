@@ -1012,7 +1012,7 @@ Thanks to [@fson](https://github.com/fson) for cutting this release.
 ### Babel Preset (`babel-preset-react-app`)
 
 - The preset now detects the Node.js version in test environment and disables unnecessary ES2015 transforms using `babel-preset-env`. ([@shubheksha](https://github.com/shubheksha) in [#878](https://github.com/facebook/create-react-app/pull/878), [@JeffreyATW](https://github.com/JeffreyATW) in [#927
-  ](https://github.com/facebook/create-react-app/pull/927))
+](https://github.com/facebook/create-react-app/pull/927))
 - Fixes a duplicate dependency on `babel-plugin-transform-regenerator`. ([@akofman](https://github.com/akofman) in [#864](https://github.com/facebook/create-react-app/pull/864))
 
 ### Utilities (`react-dev-utils`)

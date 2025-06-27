@@ -26,7 +26,7 @@ test('basic error; 0 context', async () => {
       .toString('utf8')
   );
   const frames = await map(parse(error), 0);
-  expect(frames).toEqual(
+  expect(JSON.parse(JSON.stringify(frames))).toEqual(
     JSON.parse(
       fs
         .readFileSync(resolve(__dirname, '../../fixtures/bundle.json'))
@@ -51,7 +51,7 @@ test('default context (3)', async () => {
       .toString('utf8')
   );
   const frames = await map(parse(error));
-  expect(frames).toEqual(
+  expect(JSON.parse(JSON.stringify(frames))).toEqual(
     JSON.parse(
       fs
         .readFileSync(resolve(__dirname, '../../fixtures/bundle-default.json'))
@@ -80,5 +80,5 @@ test('bad comes back same', async () => {
     },
   ]);
   const frames = await map(orig);
-  expect(frames).toEqual(orig);
+  expect(JSON.parse(JSON.stringify(frames))).toEqual(JSON.parse(JSON.stringify(orig)));
 });

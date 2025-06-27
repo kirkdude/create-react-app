@@ -1,36 +1,26 @@
 {
-  "name": "react-scripts",
-  "version": "5.1.0",
-  "description": "Configuration and scripts for Create React App.",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/facebook/create-react-app.git",
-    "directory": "packages/react-scripts"
+  "bin": {
+    "react-scripts": "./bin/react-scripts.js"
   },
-  "license": "MIT",
-  "engines": {
-    "node": ">=14.0.0"
+  "browserslist": {
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ],
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ]
   },
   "bugs": {
     "url": "https://github.com/facebook/create-react-app/issues"
   },
-  "files": [
-    "bin",
-    "config",
-    "lib",
-    "scripts",
-    "template",
-    "template-typescript",
-    "utils"
-  ],
-  "bin": {
-    "react-scripts": "./bin/react-scripts.js"
-  },
-  "types": "./lib/react-app.d.ts",
   "dependencies": {
     "@babel/core": "^7.16.0",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.3",
-    "@svgr/webpack": "^5.5.0",
+    "@svgr/webpack": "^8.1.0",
     "babel-jest": "^27.4.2",
     "babel-loader": "^8.2.3",
     "babel-plugin-named-asset-import": "^0.4.0",
@@ -64,7 +54,7 @@
     "react-dev-utils": "^12.1.0",
     "react-refresh": "^0.11.0",
     "resolve": "^1.20.0",
-    "resolve-url-loader": "^4.0.0",
+    "resolve-url-loader": "^5.0.0",
     "sass-loader": "^12.3.0",
     "semver": "^7.3.5",
     "source-map-loader": "^3.0.0",
@@ -72,14 +62,29 @@
     "tailwindcss": "^3.0.2",
     "terser-webpack-plugin": "^5.2.5",
     "webpack": "^5.64.4",
-    "webpack-dev-server": "^4.6.0",
+    "webpack-dev-server": "^5.2.2",
     "webpack-manifest-plugin": "^4.0.2",
     "workbox-webpack-plugin": "^6.4.1"
   },
+  "description": "Configuration and scripts for Create React App.",
   "devDependencies": {
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "bin",
+    "config",
+    "lib",
+    "scripts",
+    "template",
+    "template-typescript",
+    "utils"
+  ],
+  "license": "MIT",
+  "name": "react-scripts",
   "optionalDependencies": {
     "fsevents": "^2.3.2"
   },
@@ -92,16 +97,11 @@
       "optional": true
     }
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+  "repository": {
+    "directory": "packages/react-scripts",
+    "type": "git",
+    "url": "https://github.com/facebook/create-react-app.git"
+  },
+  "types": "./lib/react-app.d.ts",
+  "version": "5.1.0"
 }

@@ -1,39 +1,9 @@
 {
-  "name": "react-error-overlay",
-  "version": "6.1.0",
-  "description": "An overlay for displaying stack frames.",
-  "main": "lib/index.js",
-  "sideEffects": false,
-  "scripts": {
-    "start": "cross-env NODE_ENV=development node build.js --watch",
-    "test": "cross-env NODE_ENV=test jest",
-    "build": "cross-env NODE_ENV=development node build.js",
-    "build:prod": "cross-env NODE_ENV=production node build.js",
-    "flow": "flow"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/facebook/create-react-app.git",
-    "directory": "packages/react-error-overlay"
-  },
-  "license": "MIT",
+  "author": "Joe Haddad <timer150@gmail.com>",
   "bugs": {
     "url": "https://github.com/facebook/create-react-app/issues"
   },
-  "keywords": [
-    "overlay",
-    "syntax",
-    "error",
-    "red",
-    "box",
-    "redbox",
-    "crash",
-    "warning"
-  ],
-  "author": "Joe Haddad <timer150@gmail.com>",
-  "files": [
-    "lib/index.js"
-  ],
+  "description": "An overlay for displaying stack frames.",
   "devDependencies": {
     "@babel/code-frame": "^7.16.0",
     "@babel/core": "^7.16.0",
@@ -59,13 +29,16 @@
     "source-map": "^0.5.7",
     "webpack": "^5.64.4"
   },
+  "files": [
+    "lib/index.js"
+  ],
   "jest": {
-    "setupFiles": [
-      "./src/__tests__/setupJest.js"
-    ],
     "collectCoverage": true,
     "coverageReporters": [
       "json"
+    ],
+    "setupFiles": [
+      "./src/__tests__/setupJest.js"
     ],
     "testMatch": [
       "<rootDir>/src/**/__tests__/**/*.js?(x)",
@@ -76,5 +49,32 @@
       "/fixtures/",
       "setupJest.js"
     ]
-  }
+  },
+  "keywords": [
+    "overlay",
+    "syntax",
+    "error",
+    "red",
+    "box",
+    "redbox",
+    "crash",
+    "warning"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "name": "react-error-overlay",
+  "repository": {
+    "directory": "packages/react-error-overlay",
+    "type": "git",
+    "url": "https://github.com/facebook/create-react-app.git"
+  },
+  "scripts": {
+    "build": "cross-env NODE_ENV=development node build.js",
+    "build:prod": "cross-env NODE_ENV=production node build.js",
+    "flow": "flow",
+    "start": "cross-env NODE_ENV=development node build.js --watch",
+    "test": "cross-env NODE_ENV=test jest"
+  },
+  "sideEffects": false,
+  "version": "6.1.0"
 }
