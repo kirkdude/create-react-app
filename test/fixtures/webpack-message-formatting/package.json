@@ -1,9 +1,9 @@
 {
+  "browserslist": [
+    ">0.2%"
+  ],
   "dependencies": {
     "react": "latest",
     "react-dom": "latest"
-  },
-  "browserslist": [
-    ">0.2%"
-  ]
+  }
 }

@@ -1,29 +1,17 @@
 {
   "docs": {
-    "Welcome": ["documentation-intro"],
-    "Getting Started": [
-      "getting-started",
-      "folder-structure",
-      "available-scripts",
-      "supported-browsers-features",
-      "updating-to-new-releases"
+    "Advanced Usage": [
+      "custom-templates",
+      "can-i-use-decorators",
+      "pre-rendering-into-static-html-files",
+      "advanced-configuration",
+      "alternatives-to-ejecting"
     ],
-    "Development": [
-      "setting-up-your-editor",
-      "developing-components-in-isolation",
-      "analyzing-the-bundle-size",
-      "using-https-in-development"
-    ],
-    "Styles and Assets": [
-      "adding-a-stylesheet",
-      "adding-a-css-modules-stylesheet",
-      "adding-a-sass-stylesheet",
-      "adding-css-reset",
-      "post-processing-css",
-      "adding-images-fonts-and-files",
-      "loading-graphql-files",
-      "using-the-public-folder",
-      "code-splitting"
+    "Back-End Integration": [
+      "proxying-api-requests-in-development",
+      "fetching-data-with-ajax-requests",
+      "integrating-with-an-api-backend",
+      "title-and-meta-tags"
     ],
     "Building your App": [
       "installing-a-dependency",
@@ -39,21 +27,42 @@
       "measuring-performance",
       "production-build"
     ],
-    "Testing": ["running-tests", "debugging-tests"],
-    "Back-End Integration": [
-      "proxying-api-requests-in-development",
-      "fetching-data-with-ajax-requests",
-      "integrating-with-an-api-backend",
-      "title-and-meta-tags"
+    "Deployment": [
+      "deployment"
     ],
-    "Deployment": ["deployment"],
-    "Advanced Usage": [
-      "custom-templates",
-      "can-i-use-decorators",
-      "pre-rendering-into-static-html-files",
-      "advanced-configuration",
-      "alternatives-to-ejecting"
+    "Development": [
+      "setting-up-your-editor",
+      "developing-components-in-isolation",
+      "analyzing-the-bundle-size",
+      "using-https-in-development"
     ],
-    "Support": ["troubleshooting"]
+    "Getting Started": [
+      "getting-started",
+      "folder-structure",
+      "available-scripts",
+      "supported-browsers-features",
+      "updating-to-new-releases"
+    ],
+    "Styles and Assets": [
+      "adding-a-stylesheet",
+      "adding-a-css-modules-stylesheet",
+      "adding-a-sass-stylesheet",
+      "adding-css-reset",
+      "post-processing-css",
+      "adding-images-fonts-and-files",
+      "loading-graphql-files",
+      "using-the-public-folder",
+      "code-splitting"
+    ],
+    "Support": [
+      "troubleshooting"
+    ],
+    "Testing": [
+      "running-tests",
+      "debugging-tests"
+    ],
+    "Welcome": [
+      "documentation-intro"
+    ]
   }
 }

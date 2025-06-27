@@ -1,28 +1,28 @@
 {
-  "name": "babel-plugin-named-asset-import",
-  "version": "0.4.0",
-  "description": "Babel plugin for named asset imports in Create React App",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/facebook/create-react-app.git",
-    "directory": "packages/babel-plugin-named-asset-import"
-  },
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/facebook/create-react-app/issues"
   },
-  "main": "index.js",
-  "files": [
-    "index.js"
-  ],
-  "peerDependencies": {
-    "@babel/core": "^7.1.0"
-  },
+  "description": "Babel plugin for named asset imports in Create React App",
   "devDependencies": {
     "babel-plugin-tester": "^10.1.0",
     "jest": "^27.4.3"
   },
+  "files": [
+    "index.js"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "babel-plugin-named-asset-import",
+  "peerDependencies": {
+    "@babel/core": "^7.1.0"
+  },
+  "repository": {
+    "directory": "packages/babel-plugin-named-asset-import",
+    "type": "git",
+    "url": "https://github.com/facebook/create-react-app.git"
+  },
   "scripts": {
     "test": "jest"
-  }
+  },
+  "version": "0.4.0"
 }

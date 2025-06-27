@@ -142,12 +142,15 @@ For example, to create a build environment for a staging environment:
 1. Create a file called `.env.staging`
 1. Set environment variables as you would any other `.env` file (e.g. `REACT_APP_API_URL=http://api-staging.example.com`)
 1. Install [env-cmd](https://www.npmjs.com/package/env-cmd)
+
    ```sh
-   $ npm install env-cmd --save
-   $ # or
-   $ yarn add env-cmd
+   npm install env-cmd --save
+   # or
+   yarn add env-cmd
    ```
+
 1. Add a new script to your `package.json`, building with your new environment:
+
    ```json
    {
      "scripts": {
@@ -456,7 +459,7 @@ Import the project into Vercel using the [Import Flow](https://vercel.com/import
 
 After your project has been imported, all subsequent pushes to branches will generate [Preview Deployments](https://vercel.com/docs/platform/deployments#preview), and all changes made to the [Production Branch](https://vercel.com/docs/git-integrations#production-branch) (commonly "master" or "main") will result in a [Production Deployment](https://vercel.com/docs/platform/deployments#production).
 
-Once deployed, you will get a URL to see your app live, such as the following: https://create-react-app-example.vercel.app/.
+Once deployed, you will get a URL to see your app live, such as the following: <https://create-react-app-example.vercel.app/>.
 
 ### Step 2 (optional): Using a Custom Domain
 
@@ -472,7 +475,7 @@ You can deploy a fresh React project, with a Git repository set up for you, with
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?s=https%3A%2F%2Fgithub.com%2Fvercel%2Fvercel%2Ftree%2Fmaster%2Fexamples%2Fcreate-react-app)
 
-### Vercel References:
+### Vercel References
 
 - [Example Source](https://github.com/vercel/vercel/tree/master/examples/create-react-app)
 - [Official Vercel Guide](https://vercel.com/guides/deploying-react-with-vercel-cra)

@@ -1,122 +1,122 @@
 [
   {
-    "functionName": "div",
-    "fileName": "/static/js/bundle.js",
-    "lineNumber": 41466,
-    "columnNumber": null,
-    "_originalFunctionName": "div",
+    "_originalColumnNumber": null,
     "_originalFileName": "B.js",
-    "_originalLineNumber": 8,
-    "_originalColumnNumber": null,
-    "_scriptCode": [
-      {
-        "lineNumber": 41466,
-        "content": "            'div',",
-        "highlight": true
-      }
-    ],
-    "_originalScriptCode": [
-      {
-        "lineNumber": 8,
-        "content": "          <div>{v}</div>",
-        "highlight": true
-      }
-    ]
-  },
-  {
-    "functionName": "B",
-    "fileName": "/static/js/bundle.js",
-    "lineNumber": 41395,
-    "columnNumber": null,
-    "_originalFunctionName": "B",
-    "_originalFileName": "A.js",
-    "_originalLineNumber": 6,
-    "_originalColumnNumber": null,
-    "_scriptCode": [
-      {
-        "lineNumber": 41395,
-        "content": "      return _react2.default.createElement(_B2.default, {",
-        "highlight": true
-      }
-    ],
-    "_originalScriptCode": [
-      {
-        "lineNumber": 6,
-        "content": "    return (<B/>)",
-        "highlight": true
-      }
-    ]
-  },
-  {
-    "functionName": "A",
-    "fileName": "/static/js/bundle.js",
-    "lineNumber": 26009,
-    "columnNumber": null,
-    "_originalFunctionName": "A",
-    "_originalFileName": "App.js",
-    "_originalLineNumber": 8,
-    "_originalColumnNumber": null,
-    "_scriptCode": [
-      {
-        "lineNumber": 26009,
-        "content": "      var Ac = _react2.default.createElement(_A2.default, {",
-        "highlight": true
-      }
-    ],
-    "_originalScriptCode": [
-      {
-        "lineNumber": 8,
-        "content": "    const Ac = <A />",
-        "highlight": true
-      }
-    ]
-  },
-  {
-    "functionName": "div",
-    "fileName": "/static/js/bundle.js",
-    "lineNumber": 26017,
-    "columnNumber": null,
     "_originalFunctionName": "div",
-    "_originalFileName": "App.js",
-    "_originalLineNumber": 10,
-    "_originalColumnNumber": null,
-    "_scriptCode": [
-      {
-        "lineNumber": 26017,
-        "content": "        'div',",
-        "highlight": true
-      }
-    ],
+    "_originalLineNumber": 8,
     "_originalScriptCode": [
       {
-        "lineNumber": 10,
-        "content": "      <div className=\"App\">",
-        "highlight": true
+        "content": "          <div>{v}</div>",
+        "highlight": true,
+        "lineNumber": 8
       }
-    ]
+    ],
+    "_scriptCode": [
+      {
+        "content": "            'div',",
+        "highlight": true,
+        "lineNumber": 41466
+      }
+    ],
+    "columnNumber": null,
+    "fileName": "/static/js/bundle.js",
+    "functionName": "div",
+    "lineNumber": 41466
   },
   {
-    "functionName": "App",
-    "fileName": "/static/js/bundle.js",
-    "lineNumber": 17412,
-    "columnNumber": null,
-    "_originalFunctionName": "App",
-    "_originalFileName": "index.js",
-    "_originalLineNumber": 6,
     "_originalColumnNumber": null,
-    "_scriptCode": [
-      {
-        "lineNumber": 17412,
-        "content": "_reactDom2.default.render(_react2.default.createElement(_App2.default, {",
-        "highlight": true
-      }
-    ],
+    "_originalFileName": "A.js",
+    "_originalFunctionName": "B",
+    "_originalLineNumber": 6,
     "_originalScriptCode": [
       {
-        "lineNumber": 6,
-        "content": "ReactDOM.render(<App />, document.getElementById('root'));",
-        "highlight": true
+        "content": "    return (<B/>)",
+        "highlight": true,
+        "lineNumber": 6
       }
-    ]
+    ],
+    "_scriptCode": [
+      {
+        "content": "      return _react2.default.createElement(_B2.default, {",
+        "highlight": true,
+        "lineNumber": 41395
+      }
+    ],
+    "columnNumber": null,
+    "fileName": "/static/js/bundle.js",
+    "functionName": "B",
+    "lineNumber": 41395
+  },
+  {
+    "_originalColumnNumber": null,
+    "_originalFileName": "App.js",
+    "_originalFunctionName": "A",
+    "_originalLineNumber": 8,
+    "_originalScriptCode": [
+      {
+        "content": "    const Ac = <A />",
+        "highlight": true,
+        "lineNumber": 8
+      }
+    ],
+    "_scriptCode": [
+      {
+        "content": "      var Ac = _react2.default.createElement(_A2.default, {",
+        "highlight": true,
+        "lineNumber": 26009
+      }
+    ],
+    "columnNumber": null,
+    "fileName": "/static/js/bundle.js",
+    "functionName": "A",
+    "lineNumber": 26009
+  },
+  {
+    "_originalColumnNumber": null,
+    "_originalFileName": "App.js",
+    "_originalFunctionName": "div",
+    "_originalLineNumber": 10,
+    "_originalScriptCode": [
+      {
+        "content": "      <div className=\"App\">",
+        "highlight": true,
+        "lineNumber": 10
+      }
+    ],
+    "_scriptCode": [
+      {
+        "content": "        'div',",
+        "highlight": true,
+        "lineNumber": 26017
+      }
+    ],
+    "columnNumber": null,
+    "fileName": "/static/js/bundle.js",
+    "functionName": "div",
+    "lineNumber": 26017
+  },
+  {
+    "_originalColumnNumber": null,
+    "_originalFileName": "index.js",
+    "_originalFunctionName": "App",
+    "_originalLineNumber": 6,
+    "_originalScriptCode": [
+      {
+        "content": "ReactDOM.render(<App />, document.getElementById('root'));",
+        "highlight": true,
+        "lineNumber": 6
+      }
+    ],
+    "_scriptCode": [
+      {
+        "content": "_reactDom2.default.render(_react2.default.createElement(_App2.default, {",
+        "highlight": true,
+        "lineNumber": 17412
+      }
+    ],
+    "columnNumber": null,
+    "fileName": "/static/js/bundle.js",
+    "functionName": "App",
+    "lineNumber": 17412
   }
 ]
